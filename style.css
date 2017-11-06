@@ -1,0 +1,296 @@
+
+body {
+    background: #271070;
+}
+a {
+    text-decoration: none;
+    color: #4F9BEF;
+}
+
+
+.wrap {
+	padding: 5px 5px 0 5px;
+	background: #F9F9F9;
+	width: 980px;
+	margin: 0 auto;
+	border-style: solid;
+	border-image-width: 15px;
+	border-image-source: url(http://ipic.su/img/img7/fs/border_round.1509899055.png);
+	border-image-slice: 30;
+	border-image-repeat: round;
+	border-bottom: none;
+}
+.header{
+	width: 95%;
+	overflow: hidden;
+}
+
+.client_data{
+	font-size: 130%;
+	width: 50%;
+	float: left;
+	margin: 0 0 0 15px;
+}
+.avatar img{
+   width: 40%;
+   border-radius: 50%;
+   border: 6px inset #104BA9;
+}
+.about{
+	min-height: calc(100vh - 80px);
+	margin: 0 auto;
+	width: 95%;
+	overflow: hidden;
+	padding: 0 0 50px 0;
+}
+.python img,
+.c_sharp img,
+.java img,
+.javascript img{
+	width: 100%;
+	border-radius: 10%;
+}
+.python, .c_sharp, .java, .javascript {
+	float: left;
+	width: 20%;
+	margin: 0 10px 0 0;
+	border: double 3px black;
+	border-radius: 10%;
+}
+.python:hover{background: #98B6F0}
+.c_sharp:hover{background: #98B6F0}
+.java:hover{background: #98B6F0}
+.javascript:hover{background: #98B6F0}
+.pay_block {
+	padding: 100px 0 220px 0;
+	margin: 0 auto;
+    width: 95%;
+	height: 150%;
+    border-style: solid;
+    border-image-width: 15px;
+    border-image-source: url(http://ipic.su/img/img7/fs/border.1509899040.png);
+    border-image-slice: 30;
+    border-image-repeat: stretch;
+	overflow: hidden;
+}
+.bigtext1, .bigtext2{
+	margin: 15px 0 0 0;
+	width: 50%;
+	float: left;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 180%;
+}
+
+.littext1, .littext2{
+	margin: 15px 0 0 0;
+	width: 50%;
+	float: left;
+	font-family: 'Times New Roman', Times, serif;
+}
+.miniature {
+	width: 20px;
+	height: 20px;
+}
+.card {
+	float: left;
+	margin: 15px 0 0 20px;
+	width: 40%;
+	height: 150px;
+	background: #EAEAEA;
+	box-shadow: -10px 10px 20px -15px;
+	border-radius: 30px;
+}
+.card_type img{
+	width: 95px;
+	height: 20px;
+}
+.card_type{
+	float: right;
+	margin: 15px 15px 0 0;
+}
+.card_num {
+	float: left;
+	width: 100%;
+	margin: 0 0 0 40px;
+}
+.card_cvc {
+	float: left;
+	margin: 15px 0 0 40px;
+}
+.card_date {
+	float: right;
+	margin: 15px 100px 0 0;
+}
+.nds{
+	background: none;
+	outline: none;
+	color: #4F9BEF;
+	border: none;
+	font-style: oblique;
+}
+.forma{
+	background: none;
+	outline: none;
+	color: #A8A8A8;
+	border: none;
+	font-style: oblique;
+	border-bottom: double 3px #99294F;
+}
+.without_card {
+float: left;
+padding: 0 0 50px 0;
+margin: 15px 0 0 5px;
+width: 50%;
+height: 150px;
+}
+.summa,  .comment, .email, .sender, .bik, .acc, .target, .sum, .phone{
+	margin: 15px 0 0 0;
+	float: left;
+	width: 40%;
+}
+.form_summa,  .form_comment, .form_email, .form_sender, .form_bik, .form_acc, .form_target, .form_sum, .form_phone{
+	margin: 15px 0 0 0;
+	float: left;
+	width: 60%;
+}
+.blank{
+	float: left;
+	width: 40%;
+}
+.nds{
+	float: left;
+	width: 30%;
+}
+.reset{
+	margin: 15px 0 0 0;
+	float: left;
+	width: 40%;
+}
+.button{
+	width: 60%;
+}
+.button button{
+	margin: 15px 0 0 0;
+	float: left;
+	font-size: 20px;
+	width: auto;
+	background: linear-gradient(to top left, #FFA1C2 0%, #FFA1C2 25%, #FFC4D7 50%, #7E84F1 75%, #FFA1C2 100%);
+	border: 1px solid black;
+}
+.button button:active {background: orange}
+.button button:hover {border: 5px solid red;}
+.dno img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.dno p {
+    font-size: 90%;
+}
+.dno {
+	height: 80px;
+	margin: 0 auto;
+	width: 98%;
+	padding: 15px 0 0;
+    background: #7496F2;
+	
+}
+		
+@media screen and (max-width: 960px) {
+.wrap{
+      width: 95%;
+   }
+@media screen and (max-width: 768px) {
+.pay_block {
+	padding: 100px 0 250px 0;
+}
+.python,
+.c_sharp,
+.java,
+.javascript {
+	font-size: 130%;
+	margin: 10px 10px 0;
+	width: 40%;
+}
+.without_card p{
+	font-size: 130%;
+	color:#CD8080
+}
+.nds{
+	width: 100%;
+}
+.avatar img{
+	   width: 70%;
+}
+.about p{
+	font-size: 130%;
+}
+.button{
+	float: none;
+	width: 100%;
+}
+.client_data{
+	float: none;
+}
+.bigtext1, .littext1, .bigtext2, .littext2 {
+	margin: 10px 0 0;
+	width: 100%;
+	float: none;
+}
+.littext1, .littext2 {
+	font-size: 130%;
+	margin: 10px 0 0;
+	width: 100%;
+	float: none;
+}
+.card {
+	margin: 50px 0 0 20px;
+	width: 60%;
+	height: 200px;
+	float: none;
+}
+.forma{
+	font-size: 130%;
+}
+.card_num, .card_cvc, .card_date, .card_type{
+	float: none;
+	margin: 15px 10px 0 5px;
+}
+.card_type{
+	padding: 20px 0 0;
+}
+.without_card {
+	width: 80%;
+	padding: 0 0 130px 0;
+	float: none;
+}
+.summa,  .comment, .email, .sender, .bik, .acc, .target, .sum, .phone{
+	font-size: 130%;
+	float: none;
+	width: 60%;
+}
+.form_summa,  .form_comment, .form_email, .form_sender, .form_bik, .form_acc, .form_target, .form_sum, .form_phone{
+	font-size: 50%;
+	float: none;
+}
+}
+@media screen and (max-width: 550px) {
+.python,
+.c_sharp,
+.java,
+.javascript {
+	width: 90%;
+}
+.card {
+	margin: 50px 0 0 20px;
+	width: 90%;
+	height: 200px;
+	float: none;
+}
+.client_data h1{
+	font-size: 100%;
+}
+.client_data h1{
+	font-size: 106%;
+}
+}
